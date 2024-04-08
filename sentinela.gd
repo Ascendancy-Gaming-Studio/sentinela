@@ -1,4 +1,4 @@
-extends Object
+class_name Sentinela extends Object
 
 
 var crypto := Crypto.new()
