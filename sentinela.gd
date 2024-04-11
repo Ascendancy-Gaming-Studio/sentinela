@@ -29,4 +29,5 @@ func sign(value: String) -> PackedByteArray:
 
 
 func dispose() -> void:
-	pass
+	for property in get_property_list():
+		set(property.get("name"), null)
